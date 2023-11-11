@@ -11,3 +11,8 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   line-height: 1.6;
 }
+
+.container {
+  width: 90%;
+  margin-inline: auto;
+}

@@ -11,17 +11,15 @@ import { LandingComponent } from './components/landing/landing.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list';
+
 import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorPageComponent } from './components/error-page/error-page.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { MatGridListModule } from '@angular/material/grid-list';
-import { MatCardModule } from '@angular/material/card';
-import { MatMenuModule } from '@angular/material/menu';
+
+import { TableComponent } from './components/table/table.component';
+
+import { AddressComponent } from './components/address/address.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +30,9 @@ import { MatMenuModule } from '@angular/material/menu';
     ContactComponent,
     NavbarComponent,
     ErrorPageComponent,
-    DashboardComponent
+    DashboardComponent,
+    TableComponent,
+    AddressComponent
   ],
   imports: [
     BrowserModule,
@@ -41,15 +41,7 @@ import { MatMenuModule } from '@angular/material/menu';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MaterialModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule,
-    MatGridListModule,
-    MatCardModule,
-    MatMenuModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

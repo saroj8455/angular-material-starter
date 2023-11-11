@@ -5,7 +5,7 @@ import { ErrorPageComponent } from './components/error-page/error-page.component
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 const routes: Routes = [
-  {path:"",redirectTo:"home",pathMatch:"full"},
+  {path:"",redirectTo:"dashboard",pathMatch:"full"},
   {path:"home",component:HomeComponent},
   {path:"dashboard",component:DashboardComponent},
   {path:"**",component:ErrorPageComponent},
