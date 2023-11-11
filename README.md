@@ -5,3 +5,5 @@
 `ng generate @angular/material:table <component-name>`<br>
 `ng generate @angular/material:dashboard <component-name>`<br>
 
+## Update tailwind docs
+`https://tailwindcss.com/docs/padding` <br>
