@@ -15,6 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatDialogModule} from '@angular/material/dialog';
 @NgModule({
   declarations: [],
   imports: [CommonModule],
@@ -34,6 +35,7 @@ import { MatListModule } from '@angular/material/list';
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
+    MatDialogModule
   ]
 })
 export class MaterialModule {}

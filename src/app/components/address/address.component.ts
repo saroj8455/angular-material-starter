@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 
 import { FormBuilder, Validators } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
 
 
 @Component({
@@ -88,7 +89,17 @@ export class AddressComponent {
     {name: 'Wyoming', abbreviation: 'WY'}
   ];
 
+  constructor(public dialog: MatDialog){
+
+  }
+
   onSubmit(): void {
+    this.openDialog();
     alert('Thanks!');
+
+  }
+
+  openDialog() {
+    this.dialog.open(AddressComponent);
   }
 }
